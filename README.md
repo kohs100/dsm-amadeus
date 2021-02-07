@@ -1,7 +1,6 @@
 # dsm-amadeus
 
 Custom login page CSS for DSM 6.x
-Tested only from DSM 6.2. Use at your own risk.
 
 ## Examples
 
