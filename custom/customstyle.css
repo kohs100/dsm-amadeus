@@ -1,0 +1,137 @@
+@font-face {
+    font-family: TakaoMincho;
+    src:url('TakaoMincho_ascii.ttf');
+}
+
+#sds-login-dialog {
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+#sds-login-dialog-form {
+    padding: 380px 10px 10px 10px !important;
+    width: 500px !important;
+}
+
+#sds-login-dialog-title {
+    background-image: url('logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px !important;
+    height: 320px !important;
+    font-size: 0 !important;
+
+}
+
+#login-form {
+    background-color: transparent !important;
+}
+
+#login-inner-panel {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    width: 500px !important;
+}
+
+#login-inner-panel .sds-icon-text-field {
+    height: 30px !important;
+    margin-bottom: 8px !important;
+    border: none !important;
+    width: 500px !important;
+}
+
+#login-inner-panel .x-panel-body {
+    width: 500px !important;
+}
+
+#login-inner-panel .textfield {
+    width: 320px !important;
+    height: 30px !important;
+    margin: 0 !important;
+    color: #e3c256 !important;
+    font-family: TakaoMincho;
+    font-size: 20px !important;
+    text-shadow: 0 0 8px #a2862c, 0 0 10px #a2862c !important;
+    line-height: 30px !important;
+
+    border: 1px solid white !important;
+    box-sizing: border-box;
+    background-color: black !important;
+    margin-left: 15px !important;
+    margin-right: 10px !important;
+    padding-left: 15px !important;
+}
+
+#login-inner-panel .textfield:-webkit-autofill,
+#login-inner-panel .textfield:-webkit-autofill:hover,
+#login-inner-panel .textfield:-webkit-autofill:focus,
+#login-inner-panel .textfield:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+    -webkit-text-fill-color: #e3c256 !important;
+}
+
+#login-inner-panel .icon {
+    background-image: none !important;
+    margin: 0 !important;
+    width: 100px !important;
+    height: 30px !important;
+}
+
+#login-inner-panel .icon::after{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    margin: 0 !important;
+    color: #e3c256;
+    font-family: TakaoMincho;
+    font-size: 20px;
+    text-shadow: 0 0 8px #a2862c, 0 0 10px #a2862c;
+    text-align: right;
+    line-height: 30px
+}
+
+#login-inner-panel .user-icon::after { content: "USER ID" }
+
+#login-inner-panel .passwd-icon::after { content: "PASSWORD" }
+
+#login-inner-panel #login-btn {
+    background-image: url('login-button.png') !important;
+    font-size: 0 !important;
+    width: 23px !important;
+    height: 23px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    min-width: 23px !important;
+
+    position: absolute;
+    right: 30px;
+    top: 43px;
+}
+
+#login-inner-panel #login-btn .x-btn-text {
+    font-size: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#login-inner-panel #login_rememberme-label-el {
+    font-size: 0 !important;
+}
+
+#login-inner-panel .x-form-check-wrap {
+    width: 28px !important;
+    height: 28px !important;
+    position: absolute !important;
+    top: 3px !important;
+    right: 27px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
