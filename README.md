@@ -21,6 +21,15 @@ $ ./install.sh
 3. Set DSM theme background to [amadeus-background.png](./amadeus-background.png) from DSM control panel
 ![screenshot_theme](./img/theme.PNG)
 
+## How to uninstall
+1. SSH into DSM
+2. Run following commands:
+```
+$ sudo -i
+$ wget https://github.com/kohs100/dsm-amadeus/raw/main/uninstall.sh
+$ chmod +x uninstall.sh
+$ ./uninstall.sh
+```
 
 ## Credit
 
