@@ -27,5 +27,5 @@ $ ./install.sh
 * [TakaoMincho Font](https://github.com/SumiTomohiko/UnnamedFukidashi/tree/master/takao-fonts-ttf)
 * [sddm-theme-amadeus](https://github.com/Michal-Szczepaniak/sddm-theme-amadeus)
 
-## Caution
+## ⚠️Caution⚠️
 Tested only from DSM 6.2. Use at your own risk.
